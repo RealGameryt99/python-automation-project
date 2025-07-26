@@ -1,24 +1,51 @@
-# Folder Organizer Script
+# Advanced Folder Organizer 🗂️
 
-This is a Python script that organizes your files in a folder.
+This Python script helps you automatically organize files based on their type (like images, videos, documents, etc.).  
+✅ Now supports sorting from **multiple folders**, and lets you choose:
+- Organize files **together in one folder**
+- Or **keep files organized separately per source folder**
 
-## 📂 What It Does
+---
 
-It takes a folder path from you, checks the file types (like .jpg, .pdf, .txt),  
-and puts them into separate folders like:
+## 📂 Features
+- Sorts files by extension (e.g., `.jpg`, `.pdf`, `.mp4`, etc.)
+- Handles **multiple source folders**
+- Can save output in:
+  - One merged folder (`Single`)
+  - Or separate folders for each input (`Separate`)
+- Automatically creates target folders if they don’t exist
 
-- jpg_files/
-- pdf_files/
-- txt_files/
+---
 
-This helps keep your folders clean and organized.
+## 🚀 How to Use
 
-## 🔧 How to Use
+1. Run the script
+2. Enter the number of folders you want to organize
+3. Choose `Single` or `Separate` folder organization
+4. All sorted files will appear in their respective folders!
 
-1. Open the terminal
-2. Run the script like this:
+---
 
-```bash
-python folder_organizer.py
-Enter the path of that Folder you want to sort
-The files will be moved into new folders based onn their types.
+## 🛠 Technologies Used
+- Python 3.x
+- `os`, `shutil` libraries
+
+---
+
+## 📁 Example Folder Structure (for Single Mode)
+
+Organized_folder/
+├── Images/
+├── Videos/
+├── Documents/
+└── Others/
+
+---
+
+## 📌 Coming Soon
+- GUI version
+- Scheduling/Automation support
+
+---
+
+Made with 💻 by Anshu
